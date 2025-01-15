@@ -1,10 +1,12 @@
-# @mkobayashime/biome-config
+# @mkobayashime/shared-config
+
+## Biome
 
 [biome.shared.json](./biome.shared.json)
 
 ```bash
-bun add -d @mkobayashime/biome-config
-pnpm add -D @mkobayashime/biome-config
+bun add -d @mkobayashime/shared-config
+pnpm add -D @mkobayashime/shared-config
 ```
 
 in `biome.json`
@@ -12,7 +14,7 @@ in `biome.json`
 ```json
 {
   "extends": [
-    "@mkobayashime/biome-config"
+    "@mkobayashime/shared-config/biome"
   ]
 }
 ```
