@@ -1,6 +1,7 @@
 {
 	"name": "@mkobayashime/biome-config",
 	"type": "module",
+	"exports": "./biome.shared.json",
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/bun": "latest"
