@@ -1,15 +1,18 @@
 # @mkobayashime/biome-config
 
-To install dependencies:
+[biome.shared.json](./biome.shared.json)
 
 ```bash
-bun install
+bun add -d @mkobayashime/biome-config
+pnpm add -D @mkobayashime/biome-config
 ```
 
-To run:
+in `biome.json`
 
-```bash
-bun run index.ts
+```json
+{
+  "extends": [
+    "@mkobayashime/biome-config"
+  ]
+}
 ```
-
-This project was created using `bun init` in bun v1.1.29. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
