@@ -7,7 +7,7 @@
 		"url": "https://github.com/mkobayashime/shared-config"
 	},
 	"exports": {
-		"./biome": "./biome.shared.json"
+		"./biome": "./src/biome/index.json"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

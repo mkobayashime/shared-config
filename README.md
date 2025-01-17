@@ -2,7 +2,7 @@
 
 ## Biome
 
-[biome.shared.json](./biome.shared.json)
+[config](./src/biome/index.json)
 
 ```bash
 bun add -d @mkobayashime/shared-config
