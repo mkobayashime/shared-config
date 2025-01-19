@@ -18,3 +18,27 @@ in `biome.json`
   ]
 }
 ```
+
+## ESLint
+
+```bash
+bun add -d @mkobayashime/shared-config eslint typescript-eslint
+pnpm add -D @mkobayashime/shared-config eslint typescript-eslint
+```
+
+### [`typescript-with-biome`](./src/eslint/typescriptWithBiome.js)
+
+```javascript
+import { typescriptWithBiome } from "@mkobayashime/shared-config/eslint";
+
+export default [
+  ...typescriptWithBiome,
+  {
+    languageOptions: {
+      parserOptions: {
+        project: "./tsconfig.json",
+      },
+    },
+  },
+];
+```
