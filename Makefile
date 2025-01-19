@@ -9,4 +9,8 @@ lint: deps PHONY
 lint.fix: deps PHONY
 	$(biome) check --write .
 
+codegen.dts: deps PHONY
+	bunx tsup src/eslint/index.js --dts-only --format esm --out-dir src/eslint
+	$(biome) check --write src/**/*.d.ts
+
 PHONY:

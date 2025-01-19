@@ -13,3 +13,8 @@ jobs:
           bun-version: latest
       - run: make deps
       - run: make lint
+      - run: make codegen.dts
+      - name: Ensure type definition is up-to-date
+        run: |
+          git add --intent-to-add .
+          git diff --exit-code --stat
