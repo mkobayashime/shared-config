@@ -5,8 +5,8 @@
 [config](./src/biome/index.json)
 
 ```bash
-bun add -d @mkobayashime/shared-config
-pnpm add -D @mkobayashime/shared-config
+bun add -d @mkobayashime/shared-config @biomejs/biome
+pnpm add -D @mkobayashime/shared-config @biomejs/biome
 ```
 
 in `biome.json`
