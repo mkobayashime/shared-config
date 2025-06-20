@@ -11,11 +11,11 @@
 		"./eslint": "./src/eslint/index.js"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
 		"@types/bun": "latest",
 		"tsup": "8.3.5"
 	},
 	"peerDependencies": {
+		"@biomejs/biome": "^1.9.4",
 		"eslint": "^9.18.0",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0"
