@@ -30,9 +30,10 @@ pnpm add -D @mkobayashime/shared-config eslint typescript-eslint
 
 ```javascript
 import { typescriptWithBiome } from "@mkobayashime/shared-config/eslint";
+import { defineConfig } from "eslint/config";
 
-export default [
-  ...typescriptWithBiome,
+export default defineConfig(
+  typescriptWithBiome,
   {
     languageOptions: {
       parserOptions: {
@@ -40,5 +41,5 @@ export default [
       },
     },
   },
-];
+);
 ```
