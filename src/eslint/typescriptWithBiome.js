@@ -1,7 +1,8 @@
+import gitignore from "eslint-config-flat-gitignore";
 import tsESLint from "typescript-eslint";
 
 export const typescriptWithBiome = tsESLint.config({
-	extends: [tsESLint.configs.base],
+	extends: [tsESLint.configs.base, gitignore()],
 	files: ["**/*.ts", "**/*.tsx"],
 	rules: {
 		"@typescript-eslint/await-thenable": "error",

@@ -22,8 +22,8 @@ in `biome.json`
 ## ESLint
 
 ```bash
-bun add -d @mkobayashime/shared-config eslint typescript-eslint
-pnpm add -D @mkobayashime/shared-config eslint typescript-eslint
+bun add -d @mkobayashime/shared-config eslint typescript-eslint eslint-config-flat-gitignore
+pnpm add -D @mkobayashime/shared-config eslint typescript-eslint eslint-config-flat-gitignore
 ```
 
 ### [`typescript-with-biome`](./src/eslint/typescriptWithBiome.js)
