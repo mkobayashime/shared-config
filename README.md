@@ -13,7 +13,7 @@ in `biome.json`
 
 ```json
 {
-  $schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "extends": [
     "@mkobayashime/shared-config/biome"
   ]
