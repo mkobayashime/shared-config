@@ -3,7 +3,7 @@
 	"extends": ["local>mkobayashime/renovate-config"],
 	"packageRules": [
 		{
-			"matchDepTypes": ["peerDependencies"],
+			"matchDepTypes": ["optionalDependencies"],
 			"rangeStrategy": "bump"
 		}
 	]
